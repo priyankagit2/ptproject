@@ -1,0 +1,41 @@
+
+
+<!-- <div  style="background-image: url(../../assets/images/bgjoin.jpg); background-repeat: no-repeat;background-size: cover;"> -->
+
+    <div class="registration">
+        <div class="col-sm-12"> 
+           
+        
+            <form style="margin-left:5.5cm;">
+                    <h2  style="margin-left: 1.3cm;padding-top:2em;color: rgb(255, 136, 0);font-family:Harrington ">REGISTER YOURSELF</h2> 
+                    <br>        
+                   <i class="fa fa-group"></i> 
+                    <input type="text" class="form-control" [(ngModel)]="name" name="name"  placeholder="Enter Your Username">  
+               <br> 
+               <i class="fa fa-envelope"></i>  
+                        <input type="email" class="form-control" id="inputEmail4" [(ngModel)]="email" placeholder="Enter your e-mail" name="email">
+                  
+                        
+               <i class="fa fa-key"></i>
+            
+                        <input type="password" class="form-control" id="inputPassword4" [(ngModel)]="password" placeholder="Enter your Password" name="password">
+                    <!-- <div class="row">
+                    <div class="col-md-4" style="margin-left: 2.0cm;">
+                        <br>
+                         <label for="inputWeight">Weight</label>
+                        <input type="text" class="form-control" id="inputWeight" [(ngModel)]="weight" name="weight" placeholder="in Kg">
+                    </div>
+                    <div class="col-md-4">
+                        <br>
+                        <label for="inputHeight">Height</label>
+                        <input type="text" class="form-control" id="inputHeight" name="height" [(ngModel)]="height"  placeholder="in cm">
+                    </div>
+                    </div> -->
+                    <br>
+                    <div class="col-lg-12">
+                <button type="submit" class="logbtn" (click)="addData()"  style="margin-left: 4.7cm;">SIGN IN</button></div>
+            </form>
+        </div>
+        </div>
+        
+        <!-- </div> -->
