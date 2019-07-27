@@ -1,0 +1,13 @@
+/*
+.body1{
+    background: url(../../assets/images/bgjoin.jpg);
+    background-repeat: no-repeat;
+    height: 100cm;
+} */
+.registration{
+    width:60%;
+    background-color:rgba(255,255, 255,0.5);
+    margin-left: 9cm;
+    height: 20cm;
+    border-radius: 0.5cm;
+    }

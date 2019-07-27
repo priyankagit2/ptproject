@@ -1,0 +1,125 @@
+<!-- <section id="hero">
+  <div class="hero-container">
+    <div class="wow fadeIn">
+
+
+      <h1>Welcome to SAPPHIRE EVENTS</h1>
+      <h2>We create <span class="rotating">beautiful memories,events</span></h2>
+      
+    </div>
+  </div>
+</section> -->
+
+
+
+<header id="header">
+  <div class="container">
+
+    <!-- <div id="logo" class="pull-left">
+      <a href="#hero"><img src="../../assets/logo.png" alt="LOGO" height="1000px" /></a>
+       Uncomment below if you prefer to use a text image -->
+      <!--<h1><a href="#hero">Header 1</a></h1>-->
+    <!-- </div> --> 
+
+    <nav id="nav-menu-container">
+      <ul class="nav-menu"  >
+        <li class="menu-active"><a [routerLink]="['/']">Home</a></li>
+        <li><a [routerLink]="['/about']">About Us</a></li>
+        <li><a [routerLink]="['/services']">Services</a></li>
+        <li><a [routerLink]="['/events']">Events</a></li>
+        <!-- <li><a href="#testimonials">Testimonials</a></li> 
+        <li><a href="#team">Team</a></li> -->
+        <li class="menu-has-children"><a [routerLink]="['/join']">Log-in</a>
+          <!-- <ul>
+            <li><a [routerLink]="['/join']">Log-in</a></li>
+             <!-- <li class="menu-has-children"><a href="#">Drop Down 2</a>
+              <ul>
+                <li><a href="#">Deep Drop Down 1</a></li>
+                <li><a href="#">Deep Drop Down 2</a></li>
+                <li><a href="#">Deep Drop Down 3</a></li>
+                <li><a href="#">Deep Drop Down 4</a></li>
+                <li><a href="#">Deep Drop Down 5</a></li>
+              </ul>
+            </li> 
+            <li><a [routerLink]="['/register']">Registeration</a></li>
+            <li><a [routerLink]="['/vlogin']">Vendor Log-in</a></li>
+            <li><a [routerLink]="['/vregister']">Vendor Registeration</a></li> 
+          </ul>-->
+        </li>
+        <li><a [routerLink]="['/contact']">Contact Us</a></li>
+      </ul>
+    </nav>
+    <!-- #nav-menu-container -->
+  </div>
+</header>
+
+
+
+
+
+
+
+<section id="services">
+  <div class="container wow fadeInUp">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="section-title">Our Services</h3>
+        <div class="section-title-divider"></div>
+       
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3 service-item">
+        <a [routerLink]="['decoration']">
+        <img src="../../assets/de.png" height="100px"/>
+       
+        <h4 class="service-title"><a href="">DECORATION</a></h4></a>
+        <p class="service-description">Decoration is one of the very important aspect of any and every event. It is one such spice without which no ceremony stands complete.</p>
+      </div>
+      <div class="col-md-3 service-item">
+          <a [routerLink]="['catering']">
+        <img src="../../assets/f.png" height="100px"/>
+        <h4 class="service-title"><a href="">CATERING</a></h4></a>
+        <p class="service-description">Catering is all about that yummy delicious food along with the great service. It 's through the taste of the tongue that you can step in the heart of your guests.</p>
+      </div>
+      <div class="col-md-3 service-item">
+          <a [routerLink]="['photo']">
+        <img src="../../assets/camera.png" height="100px"/>
+        <h4 class="service-title"><a href="">PHOTOGRAPHY</a></h4></a>
+        <p class="service-description">Pictures as we all know ,say it all. If its an event or wedding and is not properly covered by the clicks, then the memories are assumed to fade away easily.</p>
+      </div>
+      <div class="col-md-3 service-item">
+          <a [routerLink]="['venue']">
+        <img src="../../assets/ven.png" height="100px"/>
+        <h4 class="service-title"><a href="">VENUE</a></h4></a>
+        <p class="service-description">Choosing a proper venue is one of the most delicate decision for organizing any event. It is very crucial to select a place to carry out your ceremony, as the venue is where you will be showcasing your occasion.</p>
+      </div>
+ 
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<section id="subscribe1">
+  <div class="container wow fadeInUp">
+    <div class="row">
+      <div class="col-md-8">
+        <h3 class="subscribe-title">There's huge space beetween creativity and imagination</h3>
+        <h3 style="color:rgb(245, 213, 255)">Mark Simmons, Nett Media</h3>
+       
+      </div>
+     
+    </div>
+  </div>
+</section>
+
+<app-footer></app-footer>
+
+

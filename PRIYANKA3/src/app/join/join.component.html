@@ -1,0 +1,91 @@
+
+<header id="header">
+    <div class="container">
+  
+      <!-- <div id="logo" class="pull-left">
+        <a href="#hero"><img src="../../assets/logo.png" alt="LOGO" height="1000px" /></a>
+        Uncomment below if you prefer to use a text image -->
+        <!--<h1><a href="#hero">Header 1</a></h1>-->
+      <!-- </div> --> 
+  
+      <nav id="nav-menu-container">
+        <ul class="nav-menu"  >
+          <li class="menu-active"><a [routerLink]="['/']">Home</a></li>
+         
+          
+       
+         
+          
+          <li><a [routerLink]="['/view']">View</a></li>
+         
+            <li><a [routerLink]="['/contact']">Contact Us</a></li>
+            <!-- <ul>
+              <li><a [routerLink]="['/login']">Log-in</a></li>
+              <li class="menu-has-children"><a href="#">Drop Down 2</a>
+                 <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul> 
+              </li> 
+           
+            </ul> -->
+          <!-- </li> -->
+         
+        </ul>
+      </nav>
+      <!-- #nav-menu-container -->
+    </div>
+  </header>
+<!-- <div  style="background-image: url(../../assets/wal.jpg); height: 100%;background-position: center;
+background-repeat: no-repeat;
+background-size: cover;"> -->
+
+
+<div class="registration">
+<div class="col-md-12"> 
+   
+
+    <form >
+            <h2  style="margin-left: 1.3cm;padding-top:4em;color: rgb(255, 136, 0);font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">WELCOME TO SAPPHIRE EVENTS</h2> 
+            <br>        
+           <i class="fa fa-group" style="padding-top:4em"></i> <div class="form-group">
+            <input type="text" class="form-control" [(ngModel)]="name" name="name"  placeholder="Enter Your Username"> </div> 
+       <br> 
+       <i class="fa fa-envelope"></i>  
+                <input type="email" class="form-control" id="inputEmail4" [(ngModel)]="email" placeholder="Enter your e-mail" name="email">
+          
+               <br> 
+       <i class="fa fa-key" style="padding-top:3em;"></i>
+       <!-- <div class="form-group"> -->
+          
+                <input type="password" class="form-control" id="inputPassword4" [(ngModel)]="password" placeholder="Enter your Password" name="password"  >
+               <br> <i class="fa fa-money" style="padding-top:3em;"></i>
+                <input type="text" class="form-control" id="inputPassword4" [(ngModel)]="budget" placeholder="Enter your Budget" name="budget"  >
+               <br> <i class="fa fa-user-plus" style="padding-top:3em;"></i>
+                <input type="text" class="form-control" id="inputPassword4" [(ngModel)]="people" placeholder="Enter no. of people attending function" name="people"  > 
+              <br>  <i class="fa fa-table" style="padding-top:3em;"></i>
+                <input type="text" class="form-control" id="inputPassword4" [(ngModel)]="date" placeholder="Enter Date" name="date"  >
+                <!-- <div class="row">
+            <div class="col-md-4" style="margin-left: 2.0cm;">
+                <br>
+                 <label for="inputWeight">Weight</label>
+                <input type="text" class="form-control" id="inputWeight" [(ngModel)]="weight" name="weight" placeholder="in Kg">
+            </div>
+            <div class="col-md-4">
+                <br>
+                <label for="inputHeight">Height</label>
+                <input type="text" class="form-control" id="inputHeight" name="height" [(ngModel)]="height"  placeholder="in cm">
+            </div>
+            </div> -->
+            <br>
+           
+        <button type="submit" class="logbtn" (click)="addData()"  style="text-align:center">REGISTER</button>
+    </form>
+ <!-- <div class="col-md-6" style="padding-top:3em;font-family:Harrington;font-size:25px;">  NOT A MEMBER <a [routerLink]="['/register']">REGISTER</a> YOURSELF</div>  -->
+</div>
+</div>
+
+<!-- </div> -->

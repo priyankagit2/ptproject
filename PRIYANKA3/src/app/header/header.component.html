@@ -1,0 +1,432 @@
+<header id="header">
+  <div class="container">
+
+    <!-- <div id="logo" class="pull-left">
+      <a href="#hero"><img src="../../assets/logo.png" alt="LOGO" height="1000px" /></a>
+     Uncomment below if you prefer to use a text image -->
+      <!--<h1><a href="#hero">Header 1</a></h1>-->
+    <!-- </div> --> 
+
+    <nav id="nav-menu-container">
+      <ul class="nav-menu"  >
+        <li class="menu-active"><a [routerLink]="['/']">Home</a></li>
+        <li><a [routerLink]="['/about']">About Us</a></li>
+        <li><a [routerLink]="['/services']">Services</a></li>
+        <li><a [routerLink]="['/events']">Events</a></li>
+     
+        <li><a [routerLink]="['/update']">Update</a></li>
+     
+        
+        <li class="menu-has-children"><a [routerLink]="['/']" >Join</a>
+          <ul>
+            <li><a [routerLink]="['/join']">Register</a></li>
+            <!-- <li class="menu-has-children"><a href="#">Drop Down 2</a>
+               <ul>
+                <li><a href="#">Deep Drop Down 1</a></li>
+                <li><a href="#">Deep Drop Down 2</a></li>
+                <li><a href="#">Deep Drop Down 3</a></li>
+                <li><a href="#">Deep Drop Down 4</a></li>
+                <li><a href="#">Deep Drop Down 5</a></li>
+              </ul> 
+            </li>  -->
+            <li><a [routerLink]="['/register']">Log-in</a></li>
+            <!-- <li><a [routerLink]="['/vlogin']">Vendor Log-in</a></li>
+            <li><a [routerLink]="['/vregister']">Vendor Registration</a></li> -->
+          </ul>
+        </li>
+        <li><a [routerLink]="['/contact']">Contact Us</a></li>
+      </ul>
+    </nav>
+    <!-- #nav-menu-container -->
+  </div>
+</header>
+<!-- #header -->
+
+<section id="hero">
+  <div class="hero-container">
+    <div class="wow fadeIn">
+
+
+      <!-- <h1>Welcome to SAPPHIRE EVENTS</h1>
+      <h2>We create <span class="rotating">beautiful memories,events</span></h2> -->
+      
+    </div>
+  </div>
+</section>
+
+<!--==========================
+Header Section
+============================-->
+
+<!-- <app-about></app-about>
+<app-services></app-services>
+<app-events></app-events>
+<app-contact></app-contact>
+<app-footer></app-footer> -->
+
+
+
+ <!--==========================
+  About Section
+  ============================-->
+  <section id="about">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title">About Us</h3>
+          <div class="section-title-divider"></div>
+         
+        </div>
+      </div>
+    </div>
+    <div class="container about-container wow fadeInUp">
+      <div class="row">
+          <div class="col-md-12 about-content">
+              <h2 class="about-title">We live with creativity</h2>
+              <p class="about-text">
+                
+    
+    We at Sapphire Events, specialize in turning your dreams, fantasies and desire into reality. Our aim is to translate every project in the best possible manner. We expertise in flawless execution of the events entrusted upon us. We always strive to incorporate your thoughts, views and ideas in such a manner, so as to construct a perfect moment that would be cherished for a lifetime. Our experience, creativity, enthusiasm and dedication is not a point of query, rather it shows how better the things could be done.We are:
+              </p>
+             
+            </div>
+
+        <div class="col-md-3 about-img">
+         <img src="../../assets/lo.png">
+         <p><b style="font-size:25px;color:orangered">ROMANTICS</b></p>
+         <p>We have seen many love stories;we even experienced a live proposal.</p>
+        </div>
+
+        <div class="col-md-3 about-img">
+            <img src="../../assets/blb.png">
+            <p><b style="font-size:25px;color:orangered">WORKERS</b></p>
+            <p>We are passionate about our work;it's exciting to be able to help couples and it motivates us to collaborate with vendors,even if that means putting in extra hours.</p>
+           </div>
+           <div class="col-md-3 about-img">
+              <img src="../../assets/cof.png">
+              <p><b style="font-size:25px;color:orangered">INNOVATIVE</b></p>
+              <p>Sometimes we are carried away by the madness and come up with amazing and useful ideas.Our next insanity is almost ready...</p>
+             </div>
+             <div class="col-md-3 about-img">
+                <img src="../../assets/team.png">
+                <p>But,above all,we are</p>
+
+                   <p><b style="font-size:25px;color:orangered"> A TEAM!</b></p>
+               </div>
+
+        
+      </div>
+    </div>
+  </section> 
+  <section id="subscribe">
+      <div class="container wow fadeInUp">
+        <div class="row">
+          <div class="col-md-8">
+            <h3 class="subscribe-title"> “Perfection is not attainable, but if we chase perfection we can catch excellence.” 
+              </h3> <h3 style="color:rgb(245, 213, 255)">-Vince Lombardi</h3>
+                
+           
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <!-- <section id="hero">
+  <div class="hero-container">
+    <div class="wow fadeIn">
+
+
+      <h1>Welcome to SAPPHIRE EVENTS</h1>
+      <h2>We create <span class="rotating">beautiful memories,events</span></h2>
+      
+    </div>
+  </div>
+</section> -->
+
+
+<section id="services">
+  <div class="container wow fadeInUp">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="section-title">Our Services</h3>
+        <div class="section-title-divider"></div>
+       
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3 service-item">
+        <a [routerLink]="['decoration']">
+        <img src="../../assets/de.png" height="100px"/>
+       
+        <h4 class="service-title"><a href="">DECORATION</a></h4></a>
+        <p class="service-description">Decoration is one of the very important aspect of any and every event. It is one such spice without which no ceremony stands complete.</p>
+      </div>
+      <div class="col-md-3 service-item">
+          <a [routerLink]="['catering']">
+        <img src="../../assets/f.png" height="100px"/>
+        <h4 class="service-title"><a href="">CATERING</a></h4></a>
+        <p class="service-description">Catering is all about that yummy delicious food along with the great service. It 's through the taste of the tongue that you can step in the heart of your guests.</p>
+      </div>
+      <div class="col-md-3 service-item">
+          <a [routerLink]="['photo']">
+        <img src="../../assets/camera.png" height="100px"/>
+        <h4 class="service-title"><a href="">PHOTOGRAPHY</a></h4></a>
+        <p class="service-description">Pictures as we all know ,say it all. If its an event or wedding and is not properly covered by the clicks, then the memories are assumed to fade away easily.</p>
+      </div>
+      <div class="col-md-3 service-item">
+          <a [routerLink]="['venue']">
+        <img src="../../assets/ven.png" height="100px"/>
+        <h4 class="service-title"><a href="">VENUE</a></h4></a>
+        <p class="service-description">Choosing a proper venue is one of the most delicate decision for organizing any event. It is very crucial to select a place to carry out your ceremony, as the venue is where you will be showcasing your occasion.</p>
+      </div>
+ 
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<section id="subscribe1">
+  <div class="container wow fadeInUp">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="subscribe-title" style="font-family: Edwardian Script ITC;font-size: 60px;text-align: center">Redefining your every precious of moment of life with us</h3>
+        <!-- <h3 style="color:rgb(245, 213, 255)">Mark Simmons, Nett Media</h3> -->
+       
+      </div>
+     
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- <section id="hero">
+  <div class="hero-container">
+    <div class="wow fadeIn">
+
+
+      <h1>Welcome to SAPPHIRE EVENTS</h1>
+      <h2>We create <span class="rotating">beautiful memories,events</span></h2>
+      
+    </div>
+  </div>
+</section> -->
+
+  <!--==========================
+  Porfolio Section
+  ============================-->
+  <section id="portfolio"> 
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title"></h3>
+          <div class="section-title-divider"></div>
+          <p class="section-description" style="font-size:25px;color:rgb(255, 136, 0)"><b>SOME EVENTS IMAGES</b></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(../../../assets/bven.jpg);" href="">
+            <div class="details">
+              
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(../../../assets/sh.jpg);" href="">
+            <div class="details">
+              
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(../../../assets/shg.jpg);" href="">
+            <div class="details">
+              
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(../../../assets/sh5.jpg);" href="">
+            <div class="details">
+              
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(../../../assets/ip.jpg);" href="">
+            <div class="details">
+             
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(../../../assets/im4.jpg);" href="">
+            <div class="details">
+              
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(../../../assets/in.png);" href="">
+            <div class="details">
+              
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(../../../assets/bd.jpg);" href="">
+            <div class="details">
+           
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  
+    
+    <!-- Portfolio Gallery Grid -->
+    
+    
+
+
+
+
+
+ 
+  <section id="subscribe2">
+      <div class="container wow fadeInUp">
+        <div class="row">
+          <div class="col-md-8">
+            <h3 class="subscribe-title">We are an established and trusted web agency with a reputation for commitment and high integrity</h3>
+           
+          </div>
+         
+        </div>
+      </div>
+    </section>
+<!-- <app-footer></app-footer> -->
+
+
+
+
+
+
+
+
+
+
+<section id="contact">
+  <div class="container wow fadeInUp">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="section-title">Contact Us</h3>
+        <div class="section-title-divider"></div>
+        <p class="section-description">Use the form below to drop us an e-mail.Old-fashioned phone calls work too-011-678990871</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3 col-md-push-2">
+        <div class="info">
+          <div>
+            <i class="fa fa-map-marker"></i>
+            <p>NEW DELHI<br>DWARKA,SECTOR-8,110077</p>
+          </div>
+
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p>prk2000@gmail.com</p>
+            <p>sakshijain521@gmail.com</p>
+          </div>
+
+          
+
+        </div>
+      </div>
+
+      <div class="col-md-5 col-md-push-2">
+        <div class="form">
+          <div id="sendmessage">Your message has been sent. Thank you!</div>
+          <div id="errormessage"></div>
+          <form action="" method="post" role="form" class="contactForm">
+            <div class="form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <div class="validation"></div>
+            </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="copyright">
+          &copy; Copyright <strong>SAPPHIRE EVENTS</strong>. All Rights Reserved
+        </div>
+        
+        <div class="credits">
+          <div>
+            <i class="fa fa-pinterest icon" ></i>
+            <i class="fa fa-google-plus icon" style="padding-left:5px;padding-right:5px; "></i>
+            <i class="fa fa-instagram icon"></i>
+          </div>
+
+
+
+
+
+  
